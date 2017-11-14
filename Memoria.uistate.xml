@@ -10,8 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>Mundo 2-4</layout>
-        <event-sheet active="1">ESMundo2-4</event-sheet>
+        <event-sheet>ESMundo1-2</event-sheet>
+        <event-sheet>ESMundo3-1</event-sheet>
+        <event-sheet>ESMundo2-1</event-sheet>
+        <event-sheet>ESMundo3-2</event-sheet>
+        <event-sheet>ESMundo3-3</event-sheet>
+        <event-sheet>ESMundo3-4</event-sheet>
+        <event-sheet>ESMundo3-5</event-sheet>
+        <event-sheet>ESMundo3-6</event-sheet>
+        <event-sheet>ESMundo3-7</event-sheet>
+        <event-sheet active="1">ESMundo3-8</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

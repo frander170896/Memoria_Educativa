@@ -994,6 +994,134 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="CartaOp2_8" sid="4501886517107571">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="7233321116415029" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="1720913075476816" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="743518304432905" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="24" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="4957917094204498" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\111.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\222.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\333.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\444.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\5.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\555.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\6.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\666.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\7.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\777.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\8.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\888.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\9.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\999.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\10.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\101010.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\111111.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\12.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N8\121212.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_7" sid="1653522754622341">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="2135956560152295" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="1732483594079511" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="155804750870725" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="20" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="2503461579446107" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\33.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\44.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\5.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\55.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\6.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\66.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\7.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\77.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\8.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\88.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\9.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\99.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\10.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N7\1010.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_6" sid="2265186437278456">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="8475729146920834" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="7312824878243732" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="673387094880012" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="16" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="6137734417905657" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\33.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\44.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\5.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\55.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\6.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\66.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\7.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\77.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\8.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N6\88.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_5" sid="6262367465906093">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="1304127672786629" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="447867690754538" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="5959020447535936" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="12" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="3987916292720537" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\33.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\44.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\5.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\55.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\6.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\Cartas-Ruben\N5\66.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -1019,7 +1147,7 @@
             <layout>Mundo 2-7.xml</layout>
             <layout>Mundo 2-8.xml</layout>
         </layout-folder>
-        <layout-folder expanded="0" name="Mundo oraciones">
+        <layout-folder expanded="1" name="Mundo oraciones">
             <layout>Mundo3.xml</layout>
             <layout>Mundo 3-1.xml</layout>
             <layout>Mundo 3-2.xml</layout>
@@ -1039,7 +1167,7 @@
         <layout>Intrucciones.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
-        <event-folder expanded="0" name="ESMundoAngulos">
+        <event-folder expanded="1" name="ESMundoAngulos">
             <event-sheet>ESMundo1.xml</event-sheet>
             <event-sheet>ESMundo1-1.xml</event-sheet>
             <event-sheet>ESMundo1-2.xml</event-sheet>
@@ -1061,7 +1189,7 @@
             <event-sheet>ESMundo2-7.xml</event-sheet>
             <event-sheet>ESMundo2-8.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="EsOraciones">
+        <event-folder expanded="1" name="EsOraciones">
             <event-sheet>EsOraciones.xml</event-sheet>
             <event-sheet>ESMundo3-1.xml</event-sheet>
             <event-sheet>ESMundo3-2.xml</event-sheet>
