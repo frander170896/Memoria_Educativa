@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ESMenu</name>
+    <events>
+        <event-block sid="9277764510830366">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8498378140112918" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6903507645499748" type="Audio">
+                    <param id="0" name="Audio file">airtone_ _nightWalk</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;musica menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3872280351980245">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="993995650928876" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4353083910675657" type="boy">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6152733726992869" type="girl">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2323608158740836">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4658981039033789" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1289398600448952" type="boy">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1031633618793278" type="girl">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7934796730624144">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8925617805548154" type="boy">
+                    <param id="0" name="Object">puertaMundoAngulos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="2008045963637155" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="5944376327032537" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;abriendo puerta&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="3498467381739702" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6577354424358653" type="System">
+                    <param id="0" name="Layout">Mundo1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6826651008442643">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8662512121527916" type="girl">
+                    <param id="0" name="Object">puertaMundoAngulos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="9926873363559804" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="5417382043040526" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="668284104572545" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3376369942152848" type="System">
+                    <param id="0" name="Layout">Mundo1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9361108392263289">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7797642652098083" type="boy">
+                    <param id="0" name="Object">PuertaMundoEspañol</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="6644400091788792" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="3263700802167211" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="4535547741876386" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2056655277218205" type="System">
+                    <param id="0" name="Layout">Mundo3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="863265544094085">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4544111994222831" type="girl">
+                    <param id="0" name="Object">PuertaMundoEspañol</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="3810001642568496" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="1843220471604911" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="6452466928441664" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1386175481147451" type="System">
+                    <param id="0" name="Layout">Mundo3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8957904780988546">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1917686316900212" type="boy">
+                    <param id="0" name="Object">puertaMundooperacionesbasicas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="7447619798588341" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="7672761170806135" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="5760040273488692" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8815938807306559" type="System">
+                    <param id="0" name="Layout">Mundo 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2637744218183047">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4647190865822549" type="girl">
+                    <param id="0" name="Object">puertaMundooperacionesbasicas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="226794328456366" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="2688169955756312" type="Audio">
+                    <param id="0" name="Audio file">Abriendo puertas castillos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="5457432771975" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1756810864149764" type="System">
+                    <param id="0" name="Layout">Mundo 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3422341625500927">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5166769456208389" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="5611758912972852" type="girl">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="7839878791769536" type="boy">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6400572365924271">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1466208373206588" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="2935327677138367" type="girl">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="3381898924236567" type="boy">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1891444615727131">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4521080152917114" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="8315259528959356" type="girl">
+                    <param id="0" name="Control">3</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="1840830381278788" type="boy">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="725142737101923">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9094809162592432" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="4994758523722539" type="girl">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="5544500775026704" type="boy">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7464043324547932">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1417081636917793" type="Botoncreditos" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7301204510345086" type="System">
+                    <param id="0" name="Layout">Creditos</param>
+                </action>
+                <action id="6" name="Stop" sid="8068786999302452" type="Audio">
+                    <param id="0" name="Tag">&quot;musica menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8979194568665811">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5583635846241536" type="btnSonidoOff" />
+            </conditions>
+            <actions>
+                <action id="10" name="Set master volume" sid="9187619235248714" type="Audio">
+                    <param id="0" name="dB">-50</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="2281809119571929" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="6882087551326659">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5082928332899345" type="btnSonidoOn" />
+            </conditions>
+            <actions>
+                <action id="10" name="Set master volume" sid="2230950658377807" type="Audio">
+                    <param id="0" name="dB">10</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="8468079630160529" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

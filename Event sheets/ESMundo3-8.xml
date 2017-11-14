@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ESMundo3-8</name>
+    <events>
+        <event-block collapsed="1" sid="5581435957619246">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7399741756465557" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7658267783324553" type="Audio">
+                    <param id="0" name="Audio file">reusenoise_ _Black_cat_Funky</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-8.0</param>
+                    <param id="1" name="Tag (optional)">&quot;musica memoria&quot;</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="8885656763438978" type="System" />
+                <action id="-9" name="Set value" sid="3607265080662482" type="System">
+                    <param id="0" name="Variable">numeroFilas</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="3509781335481054" type="System">
+                    <param id="0" name="Variable">numeroCartas</param>
+                    <param id="1" name="Value">24</param>
+                </action>
+                <action id="-9" name="Set value" sid="6527098124776076" type="System">
+                    <param id="0" name="Variable">altoCarta</param>
+                    <param id="1" name="Value">140</param>
+                </action>
+                <action id="-9" name="Set value" sid="9310151604175123" type="System">
+                    <param id="0" name="Variable">anchoCarta</param>
+                    <param id="1" name="Value">93</param>
+                </action>
+                <action id="-9" name="Set value" sid="2995281530953332" type="System">
+                    <param id="0" name="Variable">marginLeft</param>
+                    <param id="1" name="Value">390</param>
+                </action>
+                <action id="-9" name="Set value" sid="411232759676829" type="System">
+                    <param id="0" name="Variable">marginTop</param>
+                    <param id="1" name="Value">200</param>
+                </action>
+                <action id="-9" name="Set value" sid="5359775168395383" type="System">
+                    <param id="0" name="Variable">espacioEntreCartas</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="1" name="Set size" sid="6167669699066003" type="baraja">
+                    <param id="0" name="Width">numeroCartas</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <comment>Vamos a barajar las cartas</comment>
+                <variable constant="0" name="cartaActualBaraja" sid="2760578696941747" static="0" type="number">-1</variable>
+                <event-block sid="2333990128526533">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="5476975238060535" type="System">
+                            <param id="0" name="Count">numeroCartas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="733065207889126" type="System">
+                            <param id="0" name="Variable">cartaActualBaraja</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="3085357679645461" type="baraja">
+                            <param id="0" name="X">cartaActualBaraja</param>
+                            <param id="1" name="Value">cartaActualBaraja</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="carta2" sid="2332136042701113" static="0" type="number">0</variable>
+                <variable constant="0" name="carta1" sid="2124638870615495" static="0" type="number">0</variable>
+                <variable constant="0" name="disponible2" sid="1335870221062776" static="0" type="number">0</variable>
+                <variable constant="0" name="disponible" sid="5824508160303944" static="0" type="number">0</variable>
+                <event-block sid="3438441962575258">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="9457087489502183" type="System">
+                            <param id="0" name="Count">numeroCartasBarajar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5235612790799926" type="System">
+                            <param id="0" name="Variable">disponible</param>
+                            <param id="1" name="Value">int(random(0,numeroCartas))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="562873827524743" type="System">
+                            <param id="0" name="Variable">disponible2</param>
+                            <param id="1" name="Value">int(random(0,numeroCartas))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6684931555839446" type="System">
+                            <param id="0" name="Variable">carta1</param>
+                            <param id="1" name="Value">baraja.At(disponible)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2023137178764346" type="System">
+                            <param id="0" name="Variable">carta2</param>
+                            <param id="1" name="Value">baraja.At(disponible2)</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="8784866111954582" type="baraja">
+                            <param id="0" name="X">disponible</param>
+                            <param id="1" name="Value">carta2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="5743477177173314" type="baraja">
+                            <param id="0" name="X">disponible2</param>
+                            <param id="1" name="Value">carta1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="cartaActual" sid="7307211162945306" static="0" type="number">-1</variable>
+                <variable constant="0" name="columnaActual" sid="7249862628846899" static="0" type="number">-1</variable>
+                <variable constant="0" name="filaActual" sid="8228655814147863" static="0" type="number">-1</variable>
+                <comment>Proceso para la creación de las cartas </comment>
+                <event-block sid="1973256022452117">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="7455289400484289" type="System">
+                            <param id="0" name="Count">numeroCartas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="6607946410344402" type="System">
+                            <param id="0" name="Variable">cartaActual</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6563013293832636" type="System">
+                            <param id="0" name="Variable">columnaActual</param>
+                            <param id="1" name="Value">cartaActual%numeroColumnas</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9037790854689846">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8183464629807797" type="System">
+                                    <param id="0" name="Variable">columnaActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="2023587020663928" type="System">
+                                    <param id="0" name="Variable">filaActual</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6500058251902167">
+                            <conditions />
+                            <actions>
+                                <action id="-3" name="Create object" sid="612284082109982" type="System">
+                                    <param id="0" name="Object to create">CartaOraciones</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">(marginLeft+(columnaActual*(anchoCarta+espacioEntreCartas)))</param>
+                                    <param id="3" name="Y">(marginTop+ filaActual *( altoCarta + espacioEntreCartas))</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4770657183509161" type="CartaOraciones">
+                                    <param id="0" name="Width">anchoCarta</param>
+                                    <param id="1" name="Height">altoCarta</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="3300171409486755" type="CartaOraciones">
+                                    <param id="0" name="Instance variable">CaraDeLaCarta</param>
+                                    <param id="1" name="Value">baraja.At(cartaActual)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6154759090351226">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6814130798314896" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">CartaOraciones</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="2837202966160962" type="Audio">
+                    <param id="0" name="Audio file">Voltear Carta</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5372214366181054">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3237609436978396" type="System">
+                            <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1689020336940035" type="CartaOraciones">
+                            <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="1158828655174078" type="System">
+                            <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="8148074456127263" type="System">
+                            <param id="0" name="Variable">cartasSeleccionadas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="4356726950309258" type="CartaOraciones">
+                            <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9785365190396589" type="CartaOraciones">
+                            <param id="0" name="Animation">&quot;cara&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6341750001315938" type="CartaOraciones">
+                            <param id="0" name="Frame number">CartaOraciones.CaraDeLaCarta</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="3180968124082194">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3620876540027451" type="System">
+                                    <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="2530116705284198" type="System">
+                                    <param id="0" name="Variable">primeraCartaMostrada</param>
+                                    <param id="1" name="Value">CartaOraciones.CaraDeLaCarta</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2596497054718981">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5896970157528881" type="System">
+                                    <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="2792816240697042" type="System">
+                                    <param id="0" name="Variable">segundaCartaMostrada</param>
+                                    <param id="1" name="Value">CartaOraciones.CaraDeLaCarta</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="5702865112383723" type="System">
+                                    <param id="0" name="Variable">intentos</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="2458992776946459" type="txtIntentos">
+                                    <param id="0" name="Text">intentos</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="5677536716695116">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="2295688302258164" type="System">
+                                            <param id="0" name="First value">primeraCartaMostrada-(primeraCartaMostrada%2)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">segundaCartaMostrada-(segundaCartaMostrada%2)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="842888887218481" type="System">
+                                            <param id="0" name="Variable">Encontrados</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="1880845510619698" type="txtMarcador">
+                                            <param id="0" name="Text">Encontrados</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="3081885357778644" type="Audio">
+                                            <param id="0" name="Audio file">Pareja Correcta</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="6682701605773005">
+                                            <conditions>
+                                                <condition id="-19" name="Pick all" sid="1034536875329198" type="System">
+                                                    <param id="0" name="Object">CartaOraciones</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="4441444942191729">
+                                                    <conditions>
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="9511002054681423" type="CartaOraciones">
+                                                            <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-16" name="Wait" sid="1595410032893153" type="System">
+                                                            <param id="0" name="Seconds">3</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="4794718058484161" type="CartaOraciones" />
+                                                        <action id="-9" name="Set value" sid="5981516636719072" type="System">
+                                                            <param id="0" name="Variable">cartasSeleccionadas</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="660047237537777" type="System">
+                                                            <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="2909908609811567">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Compare two values" sid="7853407811573532" type="System">
+                                            <param id="0" name="First value">primeraCartaMostrada-(primeraCartaMostrada%2)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">segundaCartaMostrada-(segundaCartaMostrada%2)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="3980972687915208" type="Audio">
+                                            <param id="0" name="Audio file">Pareja incorrecta</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="4810149062338485">
+                                            <conditions>
+                                                <condition id="-19" name="Pick all" sid="7138120388760777" type="System">
+                                                    <param id="0" name="Object">CartaOraciones</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="6108182391826235">
+                                                    <conditions>
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="7725573413648558" type="CartaOraciones">
+                                                            <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-16" name="Wait" sid="8403834290471368" type="System">
+                                                            <param id="0" name="Seconds">3</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="2000135014295176" type="CartaOraciones">
+                                                            <param id="0" name="Animation">&quot;cartaEnBlanco&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="6120279629420873" type="CartaOraciones">
+                                                            <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="9773602484919213" type="System">
+                                                            <param id="0" name="Variable">cartasSeleccionadas</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="346183240360831">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="749027383436224" type="System">
+                                            <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="5096985925570013" type="System">
+                                            <param id="0" name="Variable">primeraCartaMostrada</param>
+                                            <param id="1" name="Value">-1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="8720737892097064" type="System">
+                                            <param id="0" name="Variable">segundaCartaMostrada</param>
+                                            <param id="1" name="Value">-1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6717793368680824">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1800767918687926" type="System">
+                                    <param id="0" name="Variable">cartasSeleccionadas</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="4282180049106167" type="CartaOraciones">
+                                    <param id="0" name="Animation">&quot;cartaEnBlanco&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="1119033954387451" type="CartaOraciones">
+                                    <param id="0" name="Instance variable">CaraArribaAbajo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="9872067928386078" type="System">
+                                    <param id="0" name="Variable">cantidadCartasEscogidas</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="7521383774472383" type="System">
+                                    <param id="0" name="Variable">primeraCartaMostrada</param>
+                                    <param id="1" name="Value">-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="1809761839834979" type="System">
+                                    <param id="0" name="Variable">segundaCartaMostrada</param>
+                                    <param id="1" name="Value">-1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="824940182678382">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7475725457239116" type="System">
+                    <param id="0" name="Variable">Encontrados</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">numeroCartas/2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="7560195918399922" type="System">
+                    <param id="0" name="Seconds">RetrasoInicioCarta</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2748104933099862" type="MsjFelicitacion">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8373713150247376" type="MsjNumeroIntentos">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9738687180988637" type="ResultadoIntentos">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="5207792517844803" type="ResultadoIntentos">
+                    <param id="0" name="Text">intentos</param>
+                </action>
+                <action id="-16" name="Wait" sid="3668598938387123" type="System">
+                    <param id="0" name="Seconds">RetrasoInicioCarta</param>
+                </action>
+                <action id="2" name="Set visible" sid="9139107793594428" type="btnRegresar">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="3" name="Set enabled" sid="9247928684687203" type="btnRegresar">
+                    <param id="0" name="Mode">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1360863660573314">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="846292630668352" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9507140543562903" type="System">
+                            <param id="0" name="Variable">intentos</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="181311855978926" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3577780805668695">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6099666044757014" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7045119174194726" type="System">
+                            <param id="0" name="Variable">intentos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1548442588510702" type="System">
+                            <param id="0" name="Variable">intentos</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">34</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8147263884038522" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="321412976454162">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5550218748695121" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7851698917514972" type="System">
+                            <param id="0" name="Variable">intentos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">34</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8894331983487532" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2971850580888965">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3137729200556997" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">ControlesOraciones.levelComplete</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="5568163192965677" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">levelComplete</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2372841395359433">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="3550127332115939" type="btnRegresar" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7047917952560265" type="System">
+                            <param id="0" name="Layout">Mundo3</param>
+                        </action>
+                        <action id="6" name="Stop" sid="7275769926015863" type="Audio">
+                            <param id="0" name="Tag">&quot;musica memoria&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5275381572281618">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3326679772967544" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3501062580605168" type="System">
+                    <param id="0" name="Variable">intentos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8630853907797019">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="364877229181131" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="52269665316863" type="Audio">
+                    <param id="0" name="Audio file">Ganaste</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

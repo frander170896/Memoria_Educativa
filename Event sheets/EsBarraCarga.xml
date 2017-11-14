@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsBarraCarga</name>
+    <events>
+        <event-block sid="937919054247281">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="686135127760938" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7264447163184676" type="Audio">
+                    <param id="0" name="Audio file">admiralbob77_ _Elron_and_Admiral_Bob_Tapped_Out</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;prueba&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3177352219962547">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="185300406519228" type="System">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Time (seconds)">2.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="9274353168789701" type="ProgressBar">
+                    <param id="0" name="Value">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6625280829500867">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="8584236445868738" type="System">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Time (seconds)">3.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="4278071405178666" type="ProgressBar">
+                    <param id="0" name="Value">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1624810811551147">
+            <conditions>
+                <condition id="1" name="Compare progress" sid="5704742129588133" type="ProgressBar">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="5342822985456707" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="6" name="Stop" sid="3950550038256019" type="Audio">
+                    <param id="0" name="Tag">&quot;prueba&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="840918554672958" type="System">
+                    <param id="0" name="Layout">Eleccion Personaje</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

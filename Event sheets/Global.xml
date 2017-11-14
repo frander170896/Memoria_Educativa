@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Global</name>
+    <events>
+        <variable constant="0" name="NombrePersonaje" sid="1288941914527631" static="0" type="text"></variable>
+        <variable constant="0" name="cartasSeleccionadas" sid="2527309877507865" static="0" type="number">0</variable>
+        <variable constant="0" name="intentos" sid="9187261426719576" static="0" type="number">0</variable>
+        <variable constant="0" name="Encontrados" sid="3395303976954048" static="0" type="number">0</variable>
+        <variable constant="0" name="RetrasoInicioCarta" sid="8068699151485193" static="0" type="number">2</variable>
+        <variable constant="0" name="segundaCartaMostrada" sid="3521679816833306" static="0" type="number">-1</variable>
+        <variable constant="0" name="primeraCartaMostrada" sid="6322256627306161" static="0" type="number">-1</variable>
+        <variable constant="0" name="cantidadCartasEscogidas" sid="3434543372123296" static="0" type="number">0</variable>
+        <variable constant="0" name="numeroCartasBarajar" sid="4198114688095619" static="0" type="number">50</variable>
+        <variable constant="0" name="marginLeft" sid="4262016339750681" static="0" type="number">0</variable>
+        <variable constant="0" name="marginTop" sid="9052788193171324" static="0" type="number">0</variable>
+        <variable constant="0" name="espacioEntreCartas" sid="6805481442720208" static="0" type="number">5</variable>
+        <variable constant="0" name="altoCarta" sid="3606300936435354" static="0" type="number">0</variable>
+        <variable constant="0" name="anchoCarta" sid="7463872332290062" static="0" type="number">0</variable>
+        <variable constant="0" name="numeroFilas" sid="1458013882839842" static="0" type="number">0</variable>
+        <variable constant="0" name="numeroColumnas" sid="5825099904521717" static="0" type="number">0</variable>
+        <variable constant="0" name="numeroCartas" sid="7622567620252742" static="0" type="number">0</variable>
+    </events>
+</c2eventsheet>

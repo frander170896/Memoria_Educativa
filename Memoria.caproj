@@ -1,0 +1,1076 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Memoria</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3nvh6qmbcekys</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1366</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Carta" sid="8250633797800104">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="7735046259111666" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="8664567655994202" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="321986769130065" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="24" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="8002904842416694" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\Acutangulo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\agudo1.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\menor90.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\agudo4.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\equilatero.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\igual90.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\recto4.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\mayor90.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\obtus04.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\escaleno.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\obtuso2.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\recto2.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\isósceles.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\obtuso1.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\Cartas Finales\rectangulo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="7748397709148994">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type global="1" name="baraja" sid="9166447822469661">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Sprite" sid="9892895422955979">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4322741175180172" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Felicitación" sid="2452658782771419">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button" sid="251182647062608">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="txtEncontradas" sid="7340313729655928">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtMarcador" sid="3781004379124056">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LabIntentos" sid="7127862232835045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtIntentos" sid="1882737435421541">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="nivel1" sid="5684343370790216">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="7941191624797831" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="22357356865515">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="6276155349689482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="6151278922748349" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="4185068297116983" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="47933855666515" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="etapa_name1" sid="1088750495360432">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name5" sid="5993113058001639">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name4" sid="8105704591255652">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name2" sid="2552123165242953">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name6" sid="727877867410829">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="personaje" sid="5664611553596432">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4333064939139321">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6957815918824465" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Pictures\faulas\Naruto\ANBU_Kakashi.jpg">
+                        <collision-poly>
+                            <point x="0.0664894" y="0.21" />
+                            <point x="0.232048" y="0.064375" />
+                            <point x="0.4375" y="0.005" />
+                            <point x="0.739362" y="0.05" />
+                            <point x="0.885638" y="0.335" />
+                            <point x="0.957447" y="0.59" />
+                            <point x="0.773936" y="0.93" />
+                            <point x="0.5" y="1" />
+                            <point x="0.204787" y="0.74" />
+                            <point x="0.0359043" y="0.54625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="etapa_name7" sid="9982395545318403">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name3" sid="4247041674420614">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="contador" sid="4266854372032986">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="prueba" sid="4640799484125777">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="nivel2" sid="7439380065150916">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="3237265208970446" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="5526005220905049">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="3313147632685421" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="2683283176791678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="8952951533071079" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="1997528867860229" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="atras" sid="9865888426623979">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6135521081715867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\flecha_atras.png">
+                        <collision-poly>
+                            <point x="0.23752" y="0.230469" />
+                            <point x="0.5" y="0" />
+                            <point x="0.758454" y="0.234375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.5" y="0.999219" />
+                            <point x="0.23752" y="0.769531" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_atras" sid="2906408686178635">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etapa_name8" sid="9929438930085918">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="nivel6" sid="957654451632841">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="667288788915268" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="7638073194796346">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="6463392263112739" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="9580601675076522" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="9649254489130865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="6474181103290682" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivel4" sid="2716384704795723">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="8024459263349076" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="4355227101628448">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="3535812727781427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="5185921046648712" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="6864671514203601" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="4345061472021602" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivel5" sid="2427085024397565">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="2731393164783408" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="6160725997943593">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="3456835965563361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="7662888649051387" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="6128919509128098" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="6418592376401265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivel8" sid="1918863245531427">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="9752071199460257" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="3027441768675998">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="5252930325074835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="2243939953693409" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="5477122858490701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="9132214145825676" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivel7" sid="4108992706346253">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="1219151487516404" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="2002841348935888">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="1306691049255166" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="2399388574377934" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="9915279646893637" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="9033533597804893" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivel3" sid="6151823594365541">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="complete_level" sid="1478373382377236" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="705215806587364">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="incomplete" pingpong="0" repeatcount="1" repeatto="0" sid="4112060861750836" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas sin completar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete1" pingpong="0" repeatcount="1" repeatto="0" sid="5590878048149784" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete2" pingpong="0" repeatcount="1" repeatto="0" sid="1510471234625865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas 2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="complete3" pingpong="0" repeatcount="1" repeatto="0" sid="9189186059623842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\estrellas completas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="2375032294936109">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type global="1" name="ControlesAngulos" sid="8109911145658739">
+            <plugin id="Dictionary" />
+            <instance-variables>
+                <instance-variable name="level1_stars" sid="303381253960559" type="number" />
+                <instance-variable name="level2_stars" sid="9325325635871594" type="number" />
+                <instance-variable name="level3_stars" sid="1156532719616419" type="number" />
+                <instance-variable name="level4_stars" sid="4635726744261257" type="number" />
+                <instance-variable name="level5_stars" sid="6495802095093972" type="number" />
+                <instance-variable name="level6_stars" sid="7725573434356754" type="number" />
+                <instance-variable name="level7_stars" sid="8151959529742237" type="number" />
+                <instance-variable name="level8_stars" sid="2067282427976885" type="number" />
+                <instance-variable name="playerPosition" sid="3197600044187014" type="number" />
+                <instance-variable name="levelComplete" sid="6038553878203584" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="ProgressBar" sid="6053003739288072">
+            <plugin id="progressbar" />
+            <behaviors>
+                <behavior-type name="Timer" sid="6068901162807347">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite14" sid="9168387733109704">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2095362409350711" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bernisito\Desktop\Toshino Kyoko\UNA\Multimedios\FondoInicio.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.998536" y="0.00260417" />
+                            <point x="0.998536" y="0.997396" />
+                            <point x="0.000732064" y="0.998698" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="989855822179425">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="elecciondepersonajehombresinaura" sid="2199888234662588">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7856334644177259">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2074162363614333" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botonaceptar" sid="6196046512908434">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="HombreconAura" sid="9368483872435454">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9125138355152036">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5128495606828755" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mujerConAura" sid="4740620889567095">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9496429727200901" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="615808578892918">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9524358681768508" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EleccionMujerSinAura" sid="1488317365821958">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9166435597159702" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="boy" sid="1596405921767092">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="416692403333631">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2633017426200934" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="979732158534593">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1806992202253717">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8192441801843215" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="3776834522639871">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3561183818687553">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5978199796783833" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="3582525286336686">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1763774152870134">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4918315918500069" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="8528582035844039">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7880728468423229">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6358072126414584" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="9883302609734626">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9575453589288232">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2746335329302883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="1855627738346049">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1275203240911848">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2052801424892686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="puertaMundooperacionesbasicas" sid="3968449962404336">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2550692407056237" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="6456369286161192">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4839878964669584">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5960511782673212" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PuertaMundoEspañol" sid="5156097452972973">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3346997244239227" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="7770535826120219">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="8873458740110039">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9396389279263173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="2522416505218455">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302230524883233" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\MenuPrincipal-1366x768.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="puertaMundoAngulos" sid="4812263893600459">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6755211625476415">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9407017500941488" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="girl" sid="6314758944489022">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="3186642343182638">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5835938715201234" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="ControlesOperacionesBasicas" sid="9489819537451883">
+            <plugin id="Dictionary" />
+            <instance-variables>
+                <instance-variable name="level1_stars" sid="1351031660713569" type="number" />
+                <instance-variable name="level2_stars" sid="136150379581153" type="number" />
+                <instance-variable name="level3_stars" sid="7837094623338735" type="number" />
+                <instance-variable name="level4_stars" sid="7737954456425926" type="number" />
+                <instance-variable name="level5_stars" sid="1764331312778584" type="number" />
+                <instance-variable name="level6_stars" sid="331648378124313" type="number" />
+                <instance-variable name="level7_stars" sid="8836135095099681" type="number" />
+                <instance-variable name="level8_stars" sid="9842875034237969" type="number" />
+                <instance-variable name="playerPosition" sid="42109508978945" type="number" />
+                <instance-variable name="levelComplete" sid="7639536435521475" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type global="1" name="ControlesOraciones" sid="9765912033647754">
+            <plugin id="Dictionary" />
+            <instance-variables>
+                <instance-variable name="level1_stars" sid="5242658433550009" type="number" />
+                <instance-variable name="level2_stars" sid="277053166560484" type="number" />
+                <instance-variable name="level3_stars" sid="1470554712267245" type="number" />
+                <instance-variable name="level4_stars" sid="5252474022250673" type="number" />
+                <instance-variable name="level5_stars" sid="6387694175023304" type="number" />
+                <instance-variable name="level6_stars" sid="738875237798589" type="number" />
+                <instance-variable name="level7_stars" sid="7249221485414653" type="number" />
+                <instance-variable name="level8_stars" sid="8664660128149896" type="number" />
+                <instance-variable name="playerPosition" sid="2762926213172656" type="number" />
+                <instance-variable name="levelComplete" sid="6538131951096334" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="MsjFelicitacion" sid="1701742610433031">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MsjNumeroIntentos" sid="214773568212374">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ResultadoIntentos" sid="794728255435452">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnRegresar" sid="1338612398651791">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Audio" sid="316739262386544">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="CartaOraciones" sid="7482773439374686">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="5698499474362995" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="3220446781754422" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="3326516277417573" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="24" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="2727622927591026" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\ParrafoComparativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionParrafoComparativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\caracteristicasComparativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionCaracteristicasComparativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\ParrafoNarrativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionParrafoNarrativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\EstructuraParrafo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionEstructuraParrafo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\ParrafoDescriptivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionParrafoDescriptivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\caracteristicasExpositivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionCaracteristicasExpositivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\ejemploInformativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionEjemploTextoInformativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\libro.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\caracteristicasDescriptivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionCaracteristicasDescriptivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\TextoInformativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionTextoInformativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\caracteristicasNarrativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionCaracteristicasNarrativo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\ParrafoExpositivo.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="H:\arreglo carta\solucionParrafoExpositivo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteRuben" sid="4545428393376119">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6469428842414336" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bernisito\Desktop\13177175_972938189426928_3555421921087222252_n.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NombreRuben" sid="1564022536956063">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="2830141081273079">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9616918515980147" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500695" original-source="C:\Users\Bernisito\Desktop\21106813_803695269801547_3359390991723489524_n.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="6155969962247484">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3" sid="7858421927167626">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9837097515900986" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bernisito\Desktop\18058142_1401361583258408_762158612188987585_n.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="1395390671381996">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="atrasCreditos" sid="6155470847647042">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1332090324764313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\flecha_atras.png">
+                        <collision-poly>
+                            <point x="0.23752" y="0.230469" />
+                            <point x="0.5" y="0" />
+                            <point x="0.758454" y="0.234375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.5" y="0.999219" />
+                            <point x="0.23752" y="0.769531" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="5887406512156062">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite7" sid="9985090120005392">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9166254488542577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bernisito\Desktop\15327394_1224812090932632_743464676042607355_n.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="3322298550059645">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3395147689200689" speed="5">
+                    <frame duration="1" hotspotX="0.500472" hotspotY="0.500595" original-source="C:\Users\Bernisito\Desktop\twitter.png">
+                        <collision-poly>
+                            <point x="0.0075543" y="0.00951249" />
+                            <point x="0.499528" y="0.175981" />
+                            <point x="0.877243" y="0.154578" />
+                            <point x="0.949953" y="0.93698" />
+                            <point x="0.499528" y="1" />
+                            <point x="0.00377715" y="0.995244" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FondoCreditos" sid="7878439302994076">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9530037894431377" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bernisito\Desktop\8589130519564-wooden-stage-wallpaper-hd.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="8145627537090541">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Botoncreditos" sid="2950474696401553">
+            <plugin id="Button" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7412943799822646">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="BotonInstrucciones" sid="7608146132254807">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="txtNombre" sid="7338089843614587">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="btnContinuar" sid="8090195205828493">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2862701268853275" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text6" sid="1786611935994743">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="validarNombre" sid="738958378206002">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Nombre" sid="2191947745775342">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="instrucciones" sid="2535965818583586">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="35262860062137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\instrucciones.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.997143" y="0.00333333" />
+                            <point x="0.997143" y="0.996667" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="atrasInstrucciones" sid="3235023702814897">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5714797349931811" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Documents\Una\IV Nivel\II semestre\multimedios\imagenes juego\flecha_atras.png">
+                        <collision-poly>
+                            <point x="0.23752" y="0.230469" />
+                            <point x="0.5" y="0" />
+                            <point x="0.758454" y="0.234375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.5" y="0.999219" />
+                            <point x="0.23752" y="0.769531" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnSonidoOn" sid="1141391298159496">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="btnSonidoOff" sid="6984867887134423">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text7" sid="5212879170667059">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout-folder expanded="1" name="Mundo angulos">
+            <layout>Mundo1.xml</layout>
+            <layout>Mundo 1-1.xml</layout>
+            <layout>Mundo 1-2.xml</layout>
+            <layout>Mundo 1-3.xml</layout>
+            <layout>Mundo 1-4 .xml</layout>
+            <layout>Mundo 1-5.xml</layout>
+            <layout>Mundo 1-6.xml</layout>
+            <layout>Mundo 1-7.xml</layout>
+            <layout>Mundo 1-8.xml</layout>
+        </layout-folder>
+        <layout-folder expanded="1" name="Mundo operacionesBasicas">
+            <layout>Mundo 2.xml</layout>
+            <layout>Mundo 2-1.xml</layout>
+            <layout>Mundo 2-2.xml</layout>
+            <layout>Mundo 2-3.xml</layout>
+            <layout>Mundo 2-4.xml</layout>
+            <layout>Mundo 2-5.xml</layout>
+            <layout>Mundo 2-6.xml</layout>
+            <layout>Mundo 2-7.xml</layout>
+            <layout>Mundo 2-8.xml</layout>
+        </layout-folder>
+        <layout-folder expanded="1" name="Mundo oraciones">
+            <layout>Mundo3.xml</layout>
+            <layout>Mundo 3-1.xml</layout>
+            <layout>Mundo 3-2.xml</layout>
+            <layout>Mundo 3-3.xml</layout>
+            <layout>Mundo 3-4.xml</layout>
+            <layout>Mundo 3-5.xml</layout>
+            <layout>Mundo 3-6.xml</layout>
+            <layout>Mundo 3-7.xml</layout>
+            <layout>Mundo 3-8.xml</layout>
+        </layout-folder>
+        <layout>Felicidades .xml</layout>
+        <layout>Barra de Carga.xml</layout>
+        <layout>Eleccion Personaje.xml</layout>
+        <layout>Menu.xml</layout>
+        <layout>Creditos.xml</layout>
+        <layout>SolicitudNombre.xml</layout>
+        <layout>Intrucciones.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-folder expanded="0" name="ESMundoAngulos">
+            <event-sheet>ESMundo1.xml</event-sheet>
+            <event-sheet>ESMundo1-1.xml</event-sheet>
+            <event-sheet>ESMundo1-2.xml</event-sheet>
+            <event-sheet>ESMundo1-3.xml</event-sheet>
+            <event-sheet>ESMundo1-4.xml</event-sheet>
+            <event-sheet>ESMundo1-5.xml</event-sheet>
+            <event-sheet>ESMundo1-6.xml</event-sheet>
+            <event-sheet>ESMundo1-7.xml</event-sheet>
+            <event-sheet>ESMundo1-8.xml</event-sheet>
+        </event-folder>
+        <event-folder expanded="0" name="EsOperacionesBasicas">
+            <event-sheet>EsMundo2.xml</event-sheet>
+            <event-sheet>ESMundo2-1.xml</event-sheet>
+            <event-sheet>ESMundo2-2.xml</event-sheet>
+            <event-sheet>ESMundo2-3.xml</event-sheet>
+            <event-sheet>ESMundo2-4.xml</event-sheet>
+            <event-sheet>ESMundo2-5.xml</event-sheet>
+            <event-sheet>ESMundo2-6.xml</event-sheet>
+            <event-sheet>ESMundo2-7.xml</event-sheet>
+            <event-sheet>ESMundo2-8.xml</event-sheet>
+        </event-folder>
+        <event-folder expanded="1" name="EsOraciones">
+            <event-sheet>EsOraciones.xml</event-sheet>
+            <event-sheet>ESMundo3-1.xml</event-sheet>
+            <event-sheet>ESMundo3-2.xml</event-sheet>
+            <event-sheet>ESMundo3-3.xml</event-sheet>
+            <event-sheet>ESMundo3-4.xml</event-sheet>
+            <event-sheet>ESMundo3-5.xml</event-sheet>
+            <event-sheet>ESMundo3-6.xml</event-sheet>
+            <event-sheet>ESMundo3-7.xml</event-sheet>
+            <event-sheet>ESMundo3-8.xml</event-sheet>
+        </event-folder>
+        <event-sheet>Global.xml</event-sheet>
+        <event-sheet>ESFelicidades.xml</event-sheet>
+        <event-sheet>CondicionesMundos.xml</event-sheet>
+        <event-sheet>EsBarraCarga.xml</event-sheet>
+        <event-sheet>EsEleccionPersonaje.xml</event-sheet>
+        <event-sheet>ESMenu.xml</event-sheet>
+        <event-sheet>ESCreditos.xml</event-sheet>
+        <event-sheet>EsSolicitudNombre.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="1" />
+        <global-instance type="Keyboard" uid="30" />
+        <global-instance type="Audio" uid="311">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder expanded="1">
+        <file name="Abriendo puertas castillos.ogg" />
+        <file name="click de seleccion.ogg" />
+        <file name="entrar al mundo o nivel.ogg" />
+        <file name="Entrar en los niveles.ogg" />
+        <file name="Ganaste.ogg" />
+        <file name="Pareja Correcta.ogg" />
+        <file name="Pareja incorrecta.ogg" />
+        <file name="Perdiste.ogg" />
+        <file name="Puerta abriendo.ogg" />
+        <file name="subir nivel 3.ogg" />
+        <file name="subir nivel.ogg" />
+        <file name="Voltear Carta.ogg" />
+        <file name="voltearcarta2.ogg" />
+    </sounds-folder>
+    <music-folder expanded="0">
+        <file name="admiralbob77_ _Elron_and_Admiral_Bob_Tapped_Out.m4a" />
+        <file name="admiralbob77_ _Elron_and_Admiral_Bob_Tapped_Out.ogg" />
+        <file name="airtone_ _nightWalk.m4a" />
+        <file name="airtone_ _nightWalk.ogg" />
+        <file name="Barzakh_ _Dadaism.m4a" />
+        <file name="Barzakh_ _Dadaism.ogg" />
+        <file name="duckett_ _Leaves_of_Rain_(AussenDuckett_Mix).m4a" />
+        <file name="duckett_ _Leaves_of_Rain_(AussenDuckett_Mix).ogg" />
+        <file name="JeffSpeed68_ _Fire_and_Ice_(rock_mix).m4a" />
+        <file name="JeffSpeed68_ _Fire_and_Ice_(rock_mix).ogg" />
+        <file name="JeffSpeed68_ _Guitalele_s_Happy_Place.m4a" />
+        <file name="JeffSpeed68_ _Guitalele_s_Happy_Place.ogg" />
+        <file name="jlbrock44_ _I_Dunno_(Grapes_of_Wrath_Mix).m4a" />
+        <file name="jlbrock44_ _I_Dunno_(Grapes_of_Wrath_Mix).ogg" />
+        <file name="Loveshadow_ _The_DoxScott_Experiment.m4a" />
+        <file name="Loveshadow_ _The_DoxScott_Experiment.ogg" />
+        <file name="reusenoise_ _Black_cat_Funky.m4a" />
+        <file name="reusenoise_ _Black_cat_Funky.ogg" />
+        <file name="rocavaco_ _Bass17w18.m4a" />
+        <file name="rocavaco_ _Bass17w18.ogg" />
+        <file name="rocavaco_ _Bass17w20.m4a" />
+        <file name="rocavaco_ _Bass17w20.ogg" />
+        <file name="rocavaco_ _Bass17w21.m4a" />
+        <file name="rocavaco_ _Bass17w21.ogg" />
+        <file name="tobias_weber_ _A_Foolish_Ballad_(Instrumental).m4a" />
+        <file name="tobias_weber_ _A_Foolish_Ballad_(Instrumental).ogg" />
+    </music-folder>
+    <files-folder expanded="0">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder expanded="0" name="imagenes">
+            <file name="FondoInicio.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

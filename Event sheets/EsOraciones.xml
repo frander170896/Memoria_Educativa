@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsOraciones</name>
+    <events>
+        <variable constant="0" name="playerPosition3" sid="8219551216655833" static="0" type="number">0</variable>
+        <event-block sid="6396068099228276">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="133042675248691" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6737354258943736" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="8236406683650462" type="Audio">
+                    <param id="0" name="Audio file">jlbrock44_ _I_Dunno_(Grapes_of_Wrath_Mix)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;musica niveles&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="7667554847829332" type="Nombre">
+                    <param id="0" name="Text">NombrePersonaje</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="2290596568241299" title="conditions_player1.3">
+            <sub-events>
+                <event-block sid="7667831166765834">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="189520910654974" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="5129831593576765" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="650626382749939">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9962234441918862" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="4407250866682275" type="personaje">
+                            <param id="0" name="X">204</param>
+                            <param id="1" name="Y">86</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3317598614435131">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2956267592001144" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7279886028171973" type="personaje">
+                            <param id="0" name="X">526</param>
+                            <param id="1" name="Y">86</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2813010974334581">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8816310088968232" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="3058255682547011" type="personaje">
+                            <param id="0" name="X">845</param>
+                            <param id="1" name="Y">86</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2252580948792241">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1283026627995075" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="4150229297076935" type="personaje">
+                            <param id="0" name="X">1166</param>
+                            <param id="1" name="Y">86</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1794395580839475">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6478627892303121" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="4900989759411968" type="personaje">
+                            <param id="0" name="X">204</param>
+                            <param id="1" name="Y">469</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7460977904915752">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2900954524364881" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7318976924442006" type="personaje">
+                            <param id="0" name="X">526</param>
+                            <param id="1" name="Y">469</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9477500304122736">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5466882195707684" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="136135993076255" type="personaje">
+                            <param id="0" name="X">845</param>
+                            <param id="1" name="Y">469</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9210129777773467">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8432404399549534" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5224419193470399" type="personaje">
+                            <param id="0" name="X">1166</param>
+                            <param id="1" name="Y">469</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7779946252800297">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1639092252889931" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="5301239915992181" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Value">7</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="5757890333482938" title="conditions_level3.1">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level1_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel1">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level1_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel1">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level1_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel1">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level1_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel1">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="8238404770357766" title="conditions_level3.2">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level2_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel2">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level2_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel2">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level2_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel2">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level2_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel2">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="6913613930039242" title="conditions_level3.3">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level3_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel3">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level3_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel3">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level3_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel3">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level3_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel3">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="2865407509227775" title="conditions_level3.4">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level4_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel4">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level4_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel4">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level4_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel4">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level4_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel4">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="9880775876139706" title="conditions_level3.5">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level5_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel5">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level5_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel5">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level5_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel5">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level5_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel5">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="8661418156457357" title="conditions_level3.6">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level6_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel6">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level6_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel6">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level6_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel6">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level6_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel6">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="9739029478316784" title="conditions_level3.7">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level7_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel7">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level7_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel7">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level7_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel7">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level7_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel7">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="3981579813254748" title="conditions_level3.8">
+            <sub-events>
+                <event-block sid="7223871698521945">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="73531837310902" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5188688092653322" type="nivel8">
+                            <param id="0" name="Animation">&quot;incomplete&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9205580604135146">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5256061704526944" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2762685782382393" type="nivel8">
+                            <param id="0" name="Animation">&quot;complete1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2817820602592789">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4439608277111036" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1148703925253133" type="nivel8">
+                            <param id="0" name="Animation">&quot;complete2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1076072396790365">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7248156597955391" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">level8_stars</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8046195826782245" type="nivel8">
+                            <param id="0" name="Animation">&quot;complete3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="1238195131867094">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6364673470866024" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="4515709123904842" type="ControlesOraciones">
+                    <param id="0" name="Instance variable">playerPosition</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1287747416556402">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6784033453928022" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4179885543592495">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8054802071709348" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="5690865278981758" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="364254085066797" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="2429519070375637" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="9448318440601973" type="System">
+                            <param id="0" name="Layout">Mundo 3-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9967912208119546">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7930839664219524" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="9787801547221639" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="1669859753138769" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="595338989568826" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4619462471403156" type="System">
+                            <param id="0" name="Layout">Mundo 3-2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8460687956130697">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2016008126229454" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="9618533440180893" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="4590711204261992" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6105719467720294" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8450828167831362" type="System">
+                            <param id="0" name="Layout">Mundo 3-3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9893333084972439">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8261770814650193" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="240488942611474" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="585374822203002" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6614902764784174" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8947352099041061" type="System">
+                            <param id="0" name="Layout">Mundo 3-4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7468713961874798">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4261607301273873" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="7140552295991545" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="5295127128522631" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="364074659819136" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="5611293324428706" type="System">
+                            <param id="0" name="Layout">Mundo 3-5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6973058989253102">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="628208355282396" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="5694179405262368" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="8154929203688046" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6594564008748153" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="5583611864442162" type="System">
+                            <param id="0" name="Layout">Mundo 3-6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1326011548759619">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8831245292655937" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="5968770356976175" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="9509783791635394" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5649516197181664" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4318229983506927" type="System">
+                            <param id="0" name="Layout">Mundo 3-7</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8369938046631736">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6141885032176964" type="ControlesOraciones">
+                            <param id="0" name="Instance variable">playerPosition</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="4363556227466889" type="Audio">
+                            <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="346945256239026" type="Audio">
+                            <param id="0" name="Audio file">Entrar en los niveles</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9187967324842572" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1510979543486403" type="System">
+                            <param id="0" name="Layout">Mundo 3-8</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1528004606084214">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9990313512202863" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="7727186524476928" type="ControlesOraciones">
+                    <param id="0" name="Instance variable">playerPosition</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">ControlesOraciones.levelComplete</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7929814441367007" type="ControlesOraciones">
+                    <param id="0" name="Instance variable">playerPosition</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="745961270713779">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6586031471984326" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">atras</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="255275302367471" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="6" name="Stop" sid="8810343729860958" type="Audio">
+                    <param id="0" name="Tag">&quot;musica niveles&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

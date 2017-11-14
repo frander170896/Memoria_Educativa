@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsSolicitudNombre</name>
+    <events>
+        <event-block sid="8304698488294282">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2287477157840734" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1453205677289943" type="Audio">
+                    <param id="0" name="Audio file">Barzakh_ _Dadaism</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;eleccion de personaje&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6297161473994483">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5030050871383674" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3415641038330594" type="boy">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8396321232917377">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6379275116850647" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9975174365867567" type="girl">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2582233599805851">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1811406730806633" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btnContinuar</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="8681774839873176" type="System">
+                    <param id="0" name="First value">txtNombre.Text</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Second value">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5651731442265075" type="System">
+                    <param id="0" name="Variable">NombrePersonaje</param>
+                    <param id="1" name="Value">txtNombre.Text</param>
+                </action>
+                <action id="6" name="Stop" sid="3385381604991269" type="Audio">
+                    <param id="0" name="Tag">&quot;eleccion de personaje&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2018858939611952" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="899895001960329">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3543546055490346" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btnContinuar</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="263525104834642" type="System">
+                    <param id="0" name="First value">txtNombre.Text</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Second value">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7523394786962372" type="validarNombre">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="613110785746274" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7594657414621126" type="validarNombre">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5306545402211463">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5229069674107653" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">atras</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3498326121425389" type="System">
+                    <param id="0" name="Layout">Eleccion Personaje</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

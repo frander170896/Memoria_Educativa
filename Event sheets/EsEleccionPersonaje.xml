@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsEleccionPersonaje</name>
+    <events>
+        <variable comment="Va a tener un valor de  si es hombre o es mujer" constant="0" name="numeroEleccion" sid="5305443360663857" static="0" type="number">0</variable>
+        <event-block sid="1954601698730575">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="562640170702386" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="9690113459577868" type="Audio">
+                    <param id="0" name="Audio file">Barzakh_ _Dadaism</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;eleccion de personaje&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5915234453571121">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5247880327879385" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">elecciondepersonajehombresinaura</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3453871892203952" type="Audio">
+                    <param id="0" name="Audio file">click de seleccion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;click&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4328911966735157" type="HombreconAura">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9806173821632764" type="mujerConAura">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="6517859670454879" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1321557095688729">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7914137486941477" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">EleccionMujerSinAura</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1812702767525687" type="Audio">
+                    <param id="0" name="Audio file">click de seleccion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;click&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4742699850717936" type="mujerConAura">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8133307983884186" type="HombreconAura">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="6310808922417643" type="System">
+                    <param id="0" name="Variable">numeroEleccion</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1154716449171936">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5628878498097185" type="botonaceptar" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8119901481848483" type="Audio">
+                    <param id="0" name="Audio file">entrar al mundo o nivel</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;entrar al mundo&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="1090725584862734" type="Audio">
+                    <param id="0" name="Tag">&quot;eleccion de personaje&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="6721271113305855" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="852920598477152" type="System">
+                    <param id="0" name="Layout">SolicitudNombre</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

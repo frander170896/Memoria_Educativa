@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CondicionesMundos</name>
+    <events>
+        <variable constant="0" name="level_complete_mundo3" sid="9505247010494446" static="0" type="number">0</variable>
+        <variable constant="0" name="level_complete_mundo2" sid="8173419453880191" static="0" type="number">0</variable>
+        <variable constant="0" name="count_click" sid="4070932140864841" static="0" type="number">0</variable>
+        <variable constant="0" name="player_points" sid="1679208292113593" static="0" type="number">0</variable>
+        <variable constant="0" name="level_complete_mundo1" sid="4040809864272449" static="0" type="number">0</variable>
+    </events>
+</c2eventsheet>
