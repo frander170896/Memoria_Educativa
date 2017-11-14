@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ESMundo2-2</name>
     <events>
-        <event-block collapsed="1" sid="8090250618918787">
+        <event-block sid="8090250618918787">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="9111181390226606" type="System" />
             </conditions>
@@ -150,16 +150,16 @@
                             <conditions />
                             <actions>
                                 <action id="-3" name="Create object" sid="1914429736455008" type="System">
-                                    <param id="0" name="Object to create">Carta</param>
+                                    <param id="0" name="Object to create">CartaOp2_2</param>
                                     <param id="1" name="Layer">0</param>
                                     <param id="2" name="X">(marginLeft+(columnaActual*(anchoCarta+espacioEntreCartas)))</param>
                                     <param id="3" name="Y">(marginTop+ filaActual *( altoCarta + espacioEntreCartas))</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="4651532077993689" type="Carta">
+                                <action id="-7" name="Set size" sid="4651532077993689" type="CartaOp2_2">
                                     <param id="0" name="Width">anchoCarta</param>
                                     <param id="1" name="Height">altoCarta</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="7052800238377062" type="Carta">
+                                <action id="-10" name="Set value" sid="7052800238377062" type="CartaOp2_2">
                                     <param id="0" name="Instance variable">CaraDeLaCarta</param>
                                     <param id="1" name="Value">baraja.At(cartaActual)</param>
                                 </action>
@@ -174,7 +174,7 @@
                 <condition id="6" name="On object clicked" sid="671099201620811" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Carta</param>
+                    <param id="2" name="Object clicked">CartaOp2_2</param>
                 </condition>
             </conditions>
             <actions>
@@ -193,7 +193,7 @@
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4237357759258223" type="Carta">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4237357759258223" type="CartaOp2_2">
                             <param id="0" name="Instance variable">CaraArribaAbajo</param>
                         </condition>
                     </conditions>
@@ -206,16 +206,16 @@
                             <param id="0" name="Variable">cartasSeleccionadas</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="6922640240171505" type="Carta">
+                        <action id="-13" name="Set boolean" sid="6922640240171505" type="CartaOp2_2">
                             <param id="0" name="Instance variable">CaraArribaAbajo</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="4289444346752406" type="Carta">
+                        <action id="4" name="Set animation" sid="4289444346752406" type="CartaOp2_2">
                             <param id="0" name="Animation">&quot;cara&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="4214822027647687" type="Carta">
-                            <param id="0" name="Frame number">Carta.CaraDeLaCarta</param>
+                        <action id="5" name="Set frame" sid="4214822027647687" type="CartaOp2_2">
+                            <param id="0" name="Frame number">CartaOp2_2.CaraDeLaCarta</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -230,7 +230,7 @@
                             <actions>
                                 <action id="-9" name="Set value" sid="7629579301075379" type="System">
                                     <param id="0" name="Variable">primeraCartaMostrada</param>
-                                    <param id="1" name="Value">Carta.CaraDeLaCarta</param>
+                                    <param id="1" name="Value">CartaOp2_2.CaraDeLaCarta</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -245,7 +245,7 @@
                             <actions>
                                 <action id="-9" name="Set value" sid="2893472878784923" type="System">
                                     <param id="0" name="Variable">segundaCartaMostrada</param>
-                                    <param id="1" name="Value">Carta.CaraDeLaCarta</param>
+                                    <param id="1" name="Value">CartaOp2_2.CaraDeLaCarta</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="1241986469114723" type="System">
                                     <param id="0" name="Variable">intentos</param>
@@ -256,7 +256,7 @@
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block collapsed="1" sid="2492738866458339">
+                                <event-block sid="2492738866458339">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="7935392688942316" type="System">
                                             <param id="0" name="First value">primeraCartaMostrada-(primeraCartaMostrada%2)</param>
@@ -283,14 +283,14 @@
                                         <event-block sid="6604548828853405">
                                             <conditions>
                                                 <condition id="-19" name="Pick all" sid="7452621091741562" type="System">
-                                                    <param id="0" name="Object">Carta</param>
+                                                    <param id="0" name="Object">CartaOp2_2</param>
                                                 </condition>
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block sid="2725374270188597">
                                                     <conditions>
-                                                        <condition id="-8" name="Is boolean instance variable set" sid="4337236958314948" type="Carta">
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="4337236958314948" type="CartaOp2_2">
                                                             <param id="0" name="Instance variable">CaraArribaAbajo</param>
                                                         </condition>
                                                     </conditions>
@@ -298,7 +298,7 @@
                                                         <action id="-16" name="Wait" sid="4312249195306303" type="System">
                                                             <param id="0" name="Seconds">RetrasoInicioCarta</param>
                                                         </action>
-                                                        <action id="-9" name="Destroy" sid="9861880016524558" type="Carta" />
+                                                        <action id="-9" name="Destroy" sid="9861880016524558" type="CartaOp2_2" />
                                                         <action id="-9" name="Set value" sid="3406603065824283" type="System">
                                                             <param id="0" name="Variable">cartasSeleccionadas</param>
                                                             <param id="1" name="Value">0</param>
@@ -333,14 +333,14 @@
                                         <event-block sid="6518461131892951">
                                             <conditions>
                                                 <condition id="-19" name="Pick all" sid="7220041186249257" type="System">
-                                                    <param id="0" name="Object">Carta</param>
+                                                    <param id="0" name="Object">CartaOp2_2</param>
                                                 </condition>
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block sid="6429729277849547">
                                                     <conditions>
-                                                        <condition id="-8" name="Is boolean instance variable set" sid="4573688256560522" type="Carta">
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="4573688256560522" type="CartaOp2_2">
                                                             <param id="0" name="Instance variable">CaraArribaAbajo</param>
                                                         </condition>
                                                     </conditions>
@@ -348,11 +348,11 @@
                                                         <action id="-16" name="Wait" sid="1592163611858668" type="System">
                                                             <param id="0" name="Seconds">RetrasoInicioCarta</param>
                                                         </action>
-                                                        <action id="4" name="Set animation" sid="698499650296774" type="Carta">
+                                                        <action id="4" name="Set animation" sid="698499650296774" type="CartaOp2_2">
                                                             <param id="0" name="Animation">&quot;cartaEnBlanco&quot;</param>
                                                             <param id="1" name="From">1</param>
                                                         </action>
-                                                        <action id="-13" name="Set boolean" sid="5469175737305023" type="Carta">
+                                                        <action id="-13" name="Set boolean" sid="5469175737305023" type="CartaOp2_2">
                                                             <param id="0" name="Instance variable">CaraArribaAbajo</param>
                                                             <param id="1" name="Value">0</param>
                                                         </action>
@@ -394,11 +394,11 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="9834401617330909" type="Carta">
+                                <action id="4" name="Set animation" sid="9834401617330909" type="CartaOp2_2">
                                     <param id="0" name="Animation">&quot;cartaEnBlanco&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="4718423089373606" type="Carta">
+                                <action id="-13" name="Set boolean" sid="4718423089373606" type="CartaOp2_2">
                                     <param id="0" name="Instance variable">CaraArribaAbajo</param>
                                     <param id="1" name="Value">0</param>
                                 </action>

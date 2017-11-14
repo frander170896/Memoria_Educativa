@@ -27,32 +27,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Carta" uid="112">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <CaraDeLaCarta>0</CaraDeLaCarta>
-                        <CaraArribaAbajo>false</CaraArribaAbajo>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-53</x>
-                        <y>67</y>
-                        <z>0</z>
-                        <width>81</width>
-                        <height>131</height>
-                        <depth>0</depth>
-                        <hotspotX>0.505376339</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="txtEncontradas" uid="113">
                     <properties>
                         <text>Encontró</text>
@@ -264,6 +238,32 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="CartaOp2_1" uid="352">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <CaraDeLaCarta>0</CaraDeLaCarta>
+                        <CaraArribaAbajo>false</CaraArribaAbajo>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-64</x>
+                        <y>87</y>
+                        <z>0</z>
+                        <width>93</width>
+                        <height>160</height>
+                        <depth>0</depth>
+                        <hotspotX>0.505376339</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

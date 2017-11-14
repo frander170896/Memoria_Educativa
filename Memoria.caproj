@@ -910,6 +910,90 @@
         <object-type name="Text7" sid="5212879170667059">
             <plugin id="Text" />
         </object-type>
+        <object-type name="CartaOp2_1" sid="8148896987302942">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="9248532606470777" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="9464927888112028" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="2649412258067016" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="4" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="8646512058447374" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N1\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N1\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N1\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N1\22.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_2" sid="1347448324395164">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="2988384854911914" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="629701149507474" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="9418273198352743" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="6" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="873013562522066" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N2\33.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_3" sid="5369898914580601">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="8114401445459893" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="8648367715012075" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="1253442439642461" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="8" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="4313255616879147" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\33.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N3\44.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CartaOp2_4" sid="4576910096700056">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CaraDeLaCarta" sid="5649799676444961" type="number" />
+                <instance-variable name="CaraArribaAbajo" sid="7546142191912313" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="cartaEnBlanco" pingpong="0" repeatcount="1" repeatto="0" sid="9122366310100689" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\cartas\CartaNueva-93x160.jpg" />
+                </animation>
+                <animation framecount="10" loop="0" name="cara" pingpong="0" repeatcount="1" repeatto="0" sid="9726850398865823" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\1.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\11.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\2.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\22.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\3.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\33.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\4.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\44.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\5.jpg" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\Documents\UNA\Cuarto año\segundo semestre\Multimedios\Juego de Memoria\Cartas-Ruben\N4\55.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -935,7 +1019,7 @@
             <layout>Mundo 2-7.xml</layout>
             <layout>Mundo 2-8.xml</layout>
         </layout-folder>
-        <layout-folder expanded="1" name="Mundo oraciones">
+        <layout-folder expanded="0" name="Mundo oraciones">
             <layout>Mundo3.xml</layout>
             <layout>Mundo 3-1.xml</layout>
             <layout>Mundo 3-2.xml</layout>
@@ -966,7 +1050,7 @@
             <event-sheet>ESMundo1-7.xml</event-sheet>
             <event-sheet>ESMundo1-8.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="EsOperacionesBasicas">
+        <event-folder expanded="1" name="EsOperacionesBasicas">
             <event-sheet>EsMundo2.xml</event-sheet>
             <event-sheet>ESMundo2-1.xml</event-sheet>
             <event-sheet>ESMundo2-2.xml</event-sheet>
@@ -977,7 +1061,7 @@
             <event-sheet>ESMundo2-7.xml</event-sheet>
             <event-sheet>ESMundo2-8.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="1" name="EsOraciones">
+        <event-folder expanded="0" name="EsOraciones">
             <event-sheet>EsOraciones.xml</event-sheet>
             <event-sheet>ESMundo3-1.xml</event-sheet>
             <event-sheet>ESMundo3-2.xml</event-sheet>
